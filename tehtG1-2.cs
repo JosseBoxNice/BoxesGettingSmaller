@@ -14,10 +14,11 @@ public class tehtG1_2 : PhysicsGame
     /// </summary>
     public override void Begin()
     {
-        int i = 0;
+        int i = 0;  // Kertoo monesko neliö
         int nelioidenMaara = 10;
         int laatikonKoko = 180;
         Camera.ZoomToLevel(50);
+
         while (i <= nelioidenMaara)
         {
             PiirraNelio(this, laatikonKoko, nelioidenMaara, i);
