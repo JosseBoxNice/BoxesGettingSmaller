@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\kurssit\\ohj1\\demot\\demo3\\tehtG1-2\\tehtG1-2.csproj": {}
+    "D:\\CodingProjects\\school\\demot\\demo3\\tehtG1-2\\BoxesGettingSmaller\\tehtG1-2.csproj": {}
   },
   "projects": {
-    "C:\\kurssit\\ohj1\\demot\\demo3\\tehtG1-2\\tehtG1-2.csproj": {
+    "D:\\CodingProjects\\school\\demot\\demo3\\tehtG1-2\\BoxesGettingSmaller\\tehtG1-2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\kurssit\\ohj1\\demot\\demo3\\tehtG1-2\\tehtG1-2.csproj",
+        "projectUniqueName": "D:\\CodingProjects\\school\\demot\\demo3\\tehtG1-2\\BoxesGettingSmaller\\tehtG1-2.csproj",
         "projectName": "tehtG1-2",
-        "projectPath": "C:\\kurssit\\ohj1\\demot\\demo3\\tehtG1-2\\tehtG1-2.csproj",
-        "packagesPath": "C:\\Users\\gr301775\\.nuget\\packages\\",
-        "outputPath": "C:\\kurssit\\ohj1\\demot\\demo3\\tehtG1-2\\obj\\",
+        "projectPath": "D:\\CodingProjects\\school\\demot\\demo3\\tehtG1-2\\BoxesGettingSmaller\\tehtG1-2.csproj",
+        "packagesPath": "C:\\Users\\joosu\\.nuget\\packages\\",
+        "outputPath": "D:\\CodingProjects\\school\\demot\\demo3\\tehtG1-2\\BoxesGettingSmaller\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gr301775\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\joosu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

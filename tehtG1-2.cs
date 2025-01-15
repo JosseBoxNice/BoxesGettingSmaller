@@ -14,32 +14,34 @@ public class tehtG1_2 : PhysicsGame
     /// </summary>
     public override void Begin()
     {
-        int i = 0;  // Kertoo monesko neliö
-        int nelioidenMaara = 10;
-        int laatikonKoko = 180;
-        Camera.ZoomToLevel(50);
+        int i = 1;  // Kertoo monesko neliö
+        Camera.ZoomToLevel(1200);
+        double nelioXY = 0;
+        double nelioidenMaara = 10;
+        double LaatikonKoko = 180;
 
         while (i <= nelioidenMaara)
         {
-            PiirraNelio(this, laatikonKoko, nelioidenMaara, i);
+            double UusiLaatikonKoko = (nelioidenMaara + 1 - i) / nelioidenMaara * LaatikonKoko;
+            PiirraNelio(this, UusiLaatikonKoko, nelioXY);
+            nelioXY += UusiLaatikonKoko / 2 + (UusiLaatikonKoko - 18) / 2;
             i++;
         }
     }
 
     /// <summary>
     /// Aliohjelma piirtää ruutuun yhden neliön, jonka
-    /// sivun pituus on 80, ja keskipiste on (x, y).
+    /// sivun pituus on LaatikonKoko, ja keskipiste on (nelioXY, nelioXY).
     /// </summary>
     /// <param name="peli">Peli, johon neliö piirretään</param>
-    /// <param name="x">Neliön keskipisteen x-koordinaatti.</param>
-    /// <param name="y">Neliön keskipisteen y-koordinaatti.</param>
-    public static void PiirraNelio(PhysicsGame peli, double laatikonKoko, double nelioidenMaara, double i)
+    /// <param name="UusiLaatikonKoko">Laatikon sivun pituus</param>
+    /// <param name="nelioXY">laatikon x ja y coordinaatit</param>
+    public static void PiirraNelio(PhysicsGame peli, double UusiLaatikonKoko, double nelioXY)
     {
-        double uusiLaatikonKoko = (nelioidenMaara + 1 - i) / nelioidenMaara * laatikonKoko;
-        GameObject nelio = new GameObject(uusiLaatikonKoko, uusiLaatikonKoko);
+        GameObject nelio = new GameObject(UusiLaatikonKoko, UusiLaatikonKoko);
         nelio.Shape = Shape.Rectangle;
-        double nelionX = nelio.X + 1.5 * uusiLaatikonKoko;
-        double nelionY = nelio.Y + 1.5 * uusiLaatikonKoko;
+        nelio.X = nelioXY;
+        nelio.Y = nelioXY;
         peli.Add(nelio);
     }
     // BYCODEEND

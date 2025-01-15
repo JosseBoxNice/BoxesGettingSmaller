@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tehtG1-2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d043500267fe9ac2b3577402cbd7aecddc3bea50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9cac10f4ca37bb218de7ae6aeb249122df6a3ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("tehtG1-2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tehtG1-2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
